@@ -1,0 +1,12 @@
+name: sleep-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  - ipykernel
+  - mne
+  - pip:
+    - pyEDFlib
